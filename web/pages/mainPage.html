@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stagemonitor vertx example</title>
+
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <script type="text/javascript" src="../js/libs/sockjs.min.js"></script>
+    <script type="text/javascript" src="../js/libs/vertxbus.js"></script>
+    <script type="text/javascript" src="../js/DOM.js"></script>
+    <script type="text/javascript" src="../js/EventBusHandler.js"></script>
+    <script type="text/javascript" src="../js/mainPage.js"></script>
+</head>
+<body>
+    <div id="bookForm">
+        <div id="searchBar">
+            <input id="txtSearch" type="text" placeholder="Book Name"/>
+            <button id="btnSearch">Search</button>
+        </div>
+        <div id="bookInfo">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td id="bookName"></td>
+                </tr>
+                <tr>
+                    <td>Author:</td>
+                    <td id="bookAuthor"></td>
+                </tr>
+                <tr>
+                    <td>Price:</td>
+                    <td id="bookPrice"></td>
+                </tr>
+            </table>
+            <h4>Availabilities</h4>
+            <table id="availabilities">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
