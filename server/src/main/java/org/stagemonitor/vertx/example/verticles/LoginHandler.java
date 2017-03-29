@@ -14,7 +14,7 @@ import java.net.HttpURLConnection;
 
 public class LoginHandler implements Handler<RoutingContext> {
 
-    public static final String DB_SERVICE = "dbservice";
+    private static final String DB_SERVICE = "dbservice";
 
     protected Logger logger = LoggerFactory.getLogger(LoginHandler.class);
 
