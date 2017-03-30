@@ -5,6 +5,7 @@ import io.vertx.core.Context;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;
+import org.stagemonitor.core.Stagemonitor;
 
 import java.util.HashMap;
 
@@ -16,6 +17,7 @@ public class MainVerticle extends AbstractVerticle {
 
     @Override
     public void init(Vertx vertx, Context context) {
+        Stagemonitor.init();
         super.init(vertx, context);
     }
 

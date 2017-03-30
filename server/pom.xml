@@ -41,5 +41,20 @@
             <artifactId>vertx-rx-java</artifactId>
             <version>${vertx.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.stagemonitor</groupId>
+            <artifactId>stagemonitor-vertx</artifactId>
+            <version>0.32.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.24</version>
+        </dependency>
     </dependencies>
 </project>
