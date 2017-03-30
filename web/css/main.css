@@ -1,0 +1,56 @@
+div#loginForm{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+}
+
+#txtUsername, #txtPassword{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#btnLogin{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+div#bookForm{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width:500px;
+    margin-left: -250px;
+}
+
+#txtSearch{
+    margin-left: 50px;
+    width: 300px;
+}
+
+#btnSearch{
+    margin-left: 20px;
+    width: 80px;
+}
+
+#bookInfo{
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+#bookInfo table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#bookInfo tr th:first-child,td:first-child{
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+#bookInfo table td.centered{
+    text-align: center;
+}
